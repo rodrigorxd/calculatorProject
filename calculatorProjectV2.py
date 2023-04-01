@@ -17,7 +17,7 @@ while not finish:
                        "5 - Exponentiation\n6 - Percentage\n7 - Bhaskara\n8 - Square root\n9 - Quit\n\nSelect an option:"))
     if option >= 0 and option <= 9:
         if option == 0:
-            howToUse()
+            result = f"{howToUse()}"
         elif option <= 7:
             first_number = float(input("Type the first number:"))
             second_number = float(input("Type the second number:"))
