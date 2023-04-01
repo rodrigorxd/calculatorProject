@@ -5,7 +5,7 @@ First Python project - Simple Calculator.
 Using conditional statements, booleans, loops, flags.
 03/17/2023 - mm/dd/yyyy.
 
-Using conditional statements, booleans, loops, flags, math(built-in function), functions, modules - (Modules file: module.py)
+Using conditional statements, booleans, loops, flags, math(built-in function), functions, modules
 03/31/2023 - mm/dd/yyyy
 """
 from operations import *
@@ -28,12 +28,12 @@ while not finish:
                 subtraction_result = subtraction(first_number,second_number)
                 result = f"{first_number} - {second_number} = {subtraction_result}"
             elif option == 3:
-                validation = validateNumber(first_number, option)
+                validation = validateNumber(second_number, option)
                 if validation == True:
                     division_result = division(first_number, second_number)
                     result = f"{first_number} / {second_number} = {division_result}"
                 else:
-                    result = "Divisor(first number typed) can't be zero"
+                    result = "Divisor(second number typed) can't be zero"
             elif option == 4:
                 multiplication_result = multiplication(first_number, second_number)
                 result = f"{first_number} x {second_number} = {multiplication_result}"
