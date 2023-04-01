@@ -5,7 +5,7 @@ First Python project - Simple Calculator.
 Using conditional statements, booleans, loops, flags.
 03/17/2023 - mm/dd/yyyy.
 
-Using conditional statements, booleans, loops, flags, math(built-in function), functions, modules
+Using conditional statements, booleans, loops, flags, math(built-in function), functions, modules - (Modules file: module.py)
 03/31/2023 - mm/dd/yyyy
 """
 from operations import *
